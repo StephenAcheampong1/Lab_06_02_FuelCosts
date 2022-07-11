@@ -37,6 +37,6 @@ public class FuelCosts {
         }
 
         System.out.println("The price of gas is $" + pricePerGallon + " per gallon, therefore the cost per 100 miles will cost you $" + (pricePerGallon * 100 / mpg));
-        System.out.println("The car can travel " +(gallons * mpg) + "miles with the gas in the tank");
+        System.out.println("The car can travel " +(gallons * mpg) + " miles with the gas in the tank");
     }
 }
